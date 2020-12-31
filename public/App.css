@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.App-size
+{
+  min-height: 100vh;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +39,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn-success
+{
+  background-color: yellowgreen;
+}
+
+.App-footer
+{
+  position:absolute;
+  bottom:0vh;
+  background-color: none;
+  color:rgb(109, 106, 106);
+  padding-bottom: 2rem;
+  left: 20vw;
+  right:20vw;
+  
+  
+  
+}
+
+.App-bg
+{
+  background-color: rgba(211, 211, 211, 0.877);
 }
