@@ -3,14 +3,28 @@ import React from "react"
 // import './../App.css';
 import Header from './Header'
 import Footer from './Footer'
-import Cards  from './Cards'
+import CardStack  from './CardStack'
+import CardForm from './CardForm'
 
+
+const manyCards = ()=>
+{
+  manyCards.forEach((manyCard)=> 
+  {
+    
+  })
+}
 
 function App() {
   return (
     <div className = "App App-size App-bg">
     <Header/>
-<Cards/>
+    <CardForm />
+     <CardStack/>
+<script type = "text/javascript">
+  
+</script>
+   
     <Footer/>
 
     </div>

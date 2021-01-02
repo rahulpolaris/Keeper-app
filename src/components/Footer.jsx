@@ -1,15 +1,15 @@
 import React from 'react'
 
 
-const date =  new Date;
+
 
 
 
 const Footer =()=>
 {
-    return (
+    return(
         <div className='App-footer'>
-            <p>copyright {date.getFullYear()}</p>
+            <p>copyright {(new Date).getFullYear()}</p>
         </div>
 
     )

@@ -64,3 +64,8 @@
 {
   background-color: rgba(211, 211, 211, 0.877);
 }
+
+.card-title
+{
+  font-weight: 600;
+}

@@ -2,9 +2,9 @@ import React from "react"
 
 const Header = ()=>
 {
-    return (
+    return(
         <nav className="App navbar navbar-light bg-warning border shadow-lg">
-  <div class="container-fluid">
+  <div className="container-fluid">
     <a className=" App navbar-brand " href="#">Keeper</a>
   </div>
 </nav>
