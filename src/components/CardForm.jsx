@@ -7,11 +7,11 @@ const CardForm = ()=>
         <div className="App border-bottom border-3">
         <form className="row g-3">
         <div className="col-6">
-        <label for="Title" className="mx-3 form-label">Title:</label>
+        <label for="Title" className="mx-3 form-label fw-bold">Title:</label>
         <input type="text" className="rounded-pill form-control" name="Title"/>
         </div>
         <div className="col-6">
-        <label for="Content" className="mx-3 form-label">Content:</label>
+        <label for="Content" className="mx-3 form-label fw-bold">Content:</label>
         <input type="text" className="rounded-pill form-control" name="Content"/>
         </div>
         
